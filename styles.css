@@ -11,3 +11,43 @@
 .jc {
   justify-content: space-between;
 }
+
+body {
+  margin-left: 5%;
+  margin-right: 60%;
+  width: auto;
+}
+
+h1 {
+  margin: 5% 0 5% 0;
+}
+
+.name, .state {
+  margin: 0 0 2% 2%;
+}
+
+h4, .space {
+  margin-bottom: 5%;
+}
+
+.price {
+  margin-bottom: 5%;
+  margin-top: 15%;
+}
+
+h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.pay {
+  margin-bottom: 2%;
+}
+
+.button {
+  margin-top: 5%;
+}
+
+.submit {
+  margin-right: 3%;
+}
