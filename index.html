@@ -5,16 +5,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Welcome To U-Shop @ MSU</h1>
-  <div>
+  <div class="name">
     <label for="name">Buyer's Name: </label>
     <input type="text">
   </div>
+  <div class="state">
+    <label for="state">State: </label>
+    <input type="text">
+  </div>
+  <div class="product dflex jc">
+    <div>
+      <h4>Product Name</h4>
+      <p>Twisties</p>
+      <p>Cardbury's Chocolate</p>
+      <p>Cardbury's Nut Chocolate</p>
+      <p>Cloud 9</p>
+    </div>
+    <div>
+      <h4>Price</h4>
+      <p>RM 3.00</p>
+      <p>RM 3.50</p>
+      <p>RM 4.50</p>
+      <p>RM 0.30</p>
+    </div>
+    <div>
+      <h4>Quantity</h4>
+      <input type="text">
+      <br>
+      <input type="text">
+      <br>
+      <input type="text">
+      <br>
+      <input type="text">
+    </div>
+  </div>
   <div>
-  <label for="state">State: </label>
-  <input type="text">
+    <h2>Payment Method:</h2>
+  </div>
+  <div class="payment">
+    <div>
+      <input type="radio">
+      <label for="">Cash</label>
+    </div>
+    <div>
+      <input type="radio">
+      <label for="">Visa</label>
+    </div>
+    <div>
+      <input type="radio">
+      <label for="">Master Card</label>
+    </div>
+  </div>
+  <div class="dflex"> 
+    <div>
+      <button>Submit Order</button>
+    </div>
+    <div>
+      <button>Cancel Order</button>
+    </div>
   </div>
 </body>
 </html>
